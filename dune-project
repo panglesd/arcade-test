@@ -10,6 +10,7 @@
    (>= 4.14))
   dune
   js_of_ocaml-compiler
+  brr
   (odoc :with-doc)
   (ocamlformat
    (and

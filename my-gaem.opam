@@ -4,6 +4,7 @@ depends: [
   "ocaml" {>= "4.14"}
   "dune" {>= "3.17"}
   "js_of_ocaml-compiler"
+  "brr"
   "odoc" {with-doc}
   "ocamlformat" {with-dev-setup & = "0.27.0"}
   "ocaml-lsp-server" {with-dev-setup}
