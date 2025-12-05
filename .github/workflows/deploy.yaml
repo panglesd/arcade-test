@@ -20,12 +20,10 @@ jobs:
         uses: ocaml/setup-ocaml@v3
         with:
           ocaml-compiler: "5"
-      - name: Debug
-        run: ls -lR
       - name: Install dependencies
         run: opam install . --deps-only
       - name: Build project
-        run: dune build --profile release
+        run: opam exec -- dune build --profile release
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
