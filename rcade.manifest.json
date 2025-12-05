@@ -1,0 +1,16 @@
+{
+  "$schema": "https://rcade.dev/manifest.schema.json",
+  "name": "my-gaem",
+  "display_name": "Gaeme my",
+  "description": "qzdz qzd",
+  "visibility": "internal",
+  "authors": {
+    "display_name": "PE"
+  },
+  "dependencies": [
+    {
+      "name": "@rcade/input-classic",
+      "version": "1.0.0"
+    }
+  ]
+}
