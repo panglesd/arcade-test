@@ -20,6 +20,8 @@ jobs:
         uses: ocaml/setup-ocaml@v3
         with:
           ocaml-compiler: "5"
+      - name: Debug
+        run: ls -lR
       - name: Install dependencies
         run: opam install . --deps-only
       - name: Build project
